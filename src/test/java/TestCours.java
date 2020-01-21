@@ -16,7 +16,7 @@ public class TestCours {
 
     @Before
     public void setUp() throws Exception {
-        // String s = System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");
+        String s = System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
