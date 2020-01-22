@@ -24,7 +24,7 @@ public class TestCours {
     @Test
     public void testCours() throws Exception {
         driver.get("https://www.ebay.fr/");
-        driver.findElement(By.linkText("Marques")).click();
+        driver.findElement(By.linkText("Marqddues")).click();
         driver.findElement(By.linkText("ACIS")).click();
         driver.findElement(By.xpath("//li[@id='w7-items[0]']/div/div[2]/a/h3")).click();
         try {
